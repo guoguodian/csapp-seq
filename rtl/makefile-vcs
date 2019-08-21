@@ -1,0 +1,21 @@
+all: compile simulate wave
+
+compile:
+	vcs \
+	-sverilog \
+	-debug_all \
+	-l com.log \
+	-f rtl.lst 
+
+simulate:
+	./simv -l sim.log
+
+wave:
+	gtkwave y86.vcd 
+
+clean:
+	@rm -rf csrc DVEfiles simv simv.daidir ucli.key VCS* *.vcd
+	@rm -rf *.log *.vpd *.ddc *.svf *.SDF *Synth *Netlist* y86.vcd
+	@rm -rf alib-52 y86 *.vpd *.key
+	@rm -rf *.daidir 
+	@rm -rf *.bak
