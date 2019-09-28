@@ -15,3 +15,4 @@ clean:
 	@rm -rf alib-52 y86 *.vpd *.key
 	@rm -rf *.daidir 
 	@rm -rf *.bak
+	@rm -rf *~
