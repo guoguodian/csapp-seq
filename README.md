@@ -8,6 +8,7 @@
 iverilog cgywin 
 
 #unix like eg. ubuntu 依赖:verilog
+
 3、
 #to simulate 
 
