@@ -21,4 +21,9 @@ $make
 
 
 这个是一个自由软件，意在帮助大家掌握学习CPU架构，遵循GPL协议
+<<<<<<< HEAD
 有问题发邮件guoguodian@126.com
+=======
+有问题发邮件guoguodian@126.com.
+pp
+>>>>>>> 3df9c34c547d8ee3306d9375abb303049b701904
