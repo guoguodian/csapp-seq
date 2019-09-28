@@ -13,7 +13,7 @@ iverilog cgywin
 
 #git clone  or down zip
 
-$git clone git@github.com:guoguodian/csapp-seq.git
+$git clone https://github.com/guoguodian/csapp-seq.git
 
 $cd csapp-seq
 
