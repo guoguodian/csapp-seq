@@ -9,8 +9,7 @@ iverilog cgywin
 
 #unix like eg. ubuntu 依赖:verilog
 
-3、
-#to simulate 
+3、to simulate 
 
 #git clone  or down zip
 
