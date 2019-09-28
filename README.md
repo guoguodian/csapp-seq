@@ -1,13 +1,11 @@
-# csapp-seq
+# csapp-seq 
 这个verilog实现，完整实现了csapp的seq Y86_64 cpu
 
 #windows 依赖：
 iverilog cgywin 
 
-#linux eg. ubuntu
-iverilog
-
-#to simulate
+#linux eg. ubuntu 依赖:verilog
+#to simulate 
 #git clone  or down zip
 git clone git@github.com:guoguodian/csapp-seq.git
 cd csapp-seq
