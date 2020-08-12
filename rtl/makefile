@@ -1,12 +1,12 @@
 all: compile simulate wave
 
-compile:
+compile: 
 	iverilog  -o y86  timescale.v  test_tb.v  align.v bussplit2.v    memwrite.v     pc_increase.v  split.v alu.v cc.v  dstE.v  need_regids.v  ram.v srcA.v  aluA.v cendff.v  dstM.v  memaddr.v need_valC.v regfile.v srcB.v y86seq.v aluB.v cond.v instrvalid.v  memdata.v  newpc.v  stat.v bussplit1.v  defines.v    memread.v  pc.v setcc.v    
 
-simulate:
+simulate: compile
 	vvp y86
 
-wave:
+wave:simulate
 	gtkwave y86.vcd 
 
 clean:
